@@ -1,14 +1,16 @@
-# Clutch Data API
+# Clutch: Fortnite Stats & Tournament Data API
 
-Competitive Fortnite statistics, from tournament replays to match, player and event summaries.
+A Fortnite stats API for FNCS, Cash Cups and competitive tournament data: player statistics, match results, leaderboards, replay analysis and zone-luck estimates.
 
 **[Clutch](https://clutchfn.com) · [API documentation](https://clutchfn.com/developers) · [Methodology](https://clutchfn.com/info) · [Data coverage](https://clutchfn.com/status)**
 
-I'm building Clutch as a competitive tracker for players, fans and people building tools around Fortnite tournaments. The website and customer integrations use the same statistics API.
+I'm building Clutch as a competitive Fortnite tracker for players, fans and developers. The website and customer integrations use the same authenticated JSON API for tournament standings, per-match statistics and player performance analysis.
 
 This is the public project overview and example client. The hosted API requires an account API key; cloning this repository does not grant access. The production server, replay parser, databases and trained models are kept outside this repository.
 
 ## What you can build
+
+Use Fortnite tournament statistics for Discord bots, Twitch stream overlays, player scouting, stat cards and esports analytics tools.
 
 Click a thumbnail for full size.
 
@@ -20,7 +22,7 @@ Click a thumbnail for full size.
 
 *Replay viewing and second-by-second win probability are website-only. Other API features depend on your plan.
 
-## What I'm working on
+## Fortnite statistics and replay analysis
 
 - **Replay processing:** turn tournament server replays into stored match and per-player statistics, with live tournament work taking priority.
 - **Tournament summaries:** combine saved matches into player totals, stat rankings, weapon summaries and fight statistics.
@@ -58,7 +60,7 @@ npm test
 
 The demo reads [a synthetic response](fixtures/sessions.json) and prints a small coverage summary. Its tournament names and figures are invented examples, not production results.
 
-## Use the example client
+## JavaScript / Node.js API example
 
 For an actual integration, get your own key from your [Clutch account](https://clutchfn.com/account?tab=api). API requests are subject to your plan and consume its request allowance.
 
@@ -76,7 +78,7 @@ for (const session of result.sessions) {
 
 The client includes session listing and match-stat requests. It is a small reference integration, not a complete SDK. Production API keys belong on your server, never in browser bundles or committed files.
 
-## API examples
+## Fortnite API endpoints
 
 Base URL: `https://clutchfn.com/data-api/v1`
 
