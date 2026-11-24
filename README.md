@@ -10,19 +10,15 @@ This is the public project overview and example client. The hosted API requires 
 
 ## What you can build
 
-Screenshots from [Clutch's API page](https://clutchfn.com/developers). Click an image to open it at full size.
+Click a thumbnail for full size.
 
-| Scouting and form | Discord bots and stat cards |
-| --- | --- |
-| [![Player scouting page with recent form and tournament ranks](assets/player.webp)](assets/player.webp) | [![Shareable player tournament summary card](assets/statcard.webp)](assets/statcard.webp) |
-| **Watch parties and stream overlays** | **Zone luck** |
-| [![Watch-party overlay with projected qualification cutoff](assets/overlay.webp)](assets/overlay.webp) | [![Zone-luck graphic comparing the actual pull with alternative circles](assets/zoneluck.webp)](assets/zoneluck.webp) |
-| **Fight maps** | **Drop spot ratings** |
-| [![Fights plotted across the island](assets/fights.webp)](assets/fights.webp) | [![Drop spots compared by placement, contests and drop-fight results](assets/drops.webp)](assets/drops.webp) |
-| **Replay viewer — website feature** | **Win probability chart — website feature** |
-| [![Clutch's scrubbable match replay viewer](assets/replay.webp)](assets/replay.webp) | [![Win-probability curves through a match](assets/winprob.webp)](assets/winprob.webp) |
+| Scouting | Stat cards | Stream overlays | Zone luck |
+| --- | --- | --- | --- |
+| <a href="assets/player.webp"><img src="assets/player.webp" width="160" alt="Player scouting and form"></a> | <a href="assets/statcard.webp"><img src="assets/statcard.webp" width="160" alt="Tournament summary card"></a> | <a href="assets/overlay.webp"><img src="assets/overlay.webp" width="160" alt="Watch-party qualification overlay"></a> | <a href="assets/zoneluck.webp"><img src="assets/zoneluck.webp" width="160" alt="Zone luck and alternative circles"></a> |
+| **Fight maps** | **Drop ratings** | **Replay viewer*** | **Win probability*** |
+| <a href="assets/fights.webp"><img src="assets/fights.webp" width="160" alt="Match fight map"></a> | <a href="assets/drops.webp"><img src="assets/drops.webp" width="160" alt="Drop spot ratings"></a> | <a href="assets/replay.webp"><img src="assets/replay.webp" width="160" alt="Website replay viewer"></a> | <a href="assets/winprob.webp"><img src="assets/winprob.webp" width="160" alt="Website win-probability chart"></a> |
 
-API availability depends on the endpoint and plan. Replay viewing and second-by-second win-probability curves are website-only features; publishing these screenshots does not expose their underlying replay data.
+*Replay viewing and second-by-second win probability are website-only. Other API features depend on your plan.
 
 ## What I'm working on
 
