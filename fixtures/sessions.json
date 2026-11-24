@@ -1,0 +1,9 @@
+{
+  "limit": 2,
+  "offset": 0,
+  "coveragePolicy": "Synthetic demo fixture. Names and figures below are invented, not live tournament data.",
+  "sessions": [
+    { "eventId": "demo_solo_cup", "windowId": "demo_eu_round", "title": "Demo Solo Cup", "region": "EU", "endedAt": 1795219200000, "matches": 12, "parsed": 10 },
+    { "eventId": "demo_duo_cup", "windowId": "demo_nac_round", "title": "Demo Duos Cup", "region": "NAC", "endedAt": 1795132800000, "matches": 8, "parsed": 8 }
+  ]
+}

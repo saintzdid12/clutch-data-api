@@ -1,0 +1,12 @@
+{
+  "name": "clutch-data-api-showcase",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Public project overview and example client for the Clutch Fortnite stats API.",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "demo": "node examples/demo.mjs",
+    "test": "node --test"
+  }
+}
