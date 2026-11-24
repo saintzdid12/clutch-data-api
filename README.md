@@ -8,6 +8,22 @@ I'm building Clutch as a competitive tracker for players, fans and people buildi
 
 This is the public project overview and example client. The hosted API requires an account API key; cloning this repository does not grant access. The production server, replay parser, databases and trained models are kept outside this repository.
 
+## What you can build
+
+Screenshots from [Clutch's API page](https://clutchfn.com/developers). Click an image to open it at full size.
+
+| Scouting and form | Discord bots and stat cards |
+| --- | --- |
+| [![Player scouting page with recent form and tournament ranks](assets/player.webp)](assets/player.webp) | [![Shareable player tournament summary card](assets/statcard.webp)](assets/statcard.webp) |
+| **Watch parties and stream overlays** | **Zone luck** |
+| [![Watch-party overlay with projected qualification cutoff](assets/overlay.webp)](assets/overlay.webp) | [![Zone-luck graphic comparing the actual pull with alternative circles](assets/zoneluck.webp)](assets/zoneluck.webp) |
+| **Fight maps** | **Drop spot ratings** |
+| [![Fights plotted across the island](assets/fights.webp)](assets/fights.webp) | [![Drop spots compared by placement, contests and drop-fight results](assets/drops.webp)](assets/drops.webp) |
+| **Replay viewer — website feature** | **Win probability chart — website feature** |
+| [![Clutch's scrubbable match replay viewer](assets/replay.webp)](assets/replay.webp) | [![Win-probability curves through a match](assets/winprob.webp)](assets/winprob.webp) |
+
+API availability depends on the endpoint and plan. Replay viewing and second-by-second win-probability curves are website-only features; publishing these screenshots does not expose their underlying replay data.
+
 ## What I'm working on
 
 - **Replay processing:** turn tournament server replays into stored match and per-player statistics, with live tournament work taking priority.
@@ -85,6 +101,7 @@ src/client.mjs         Small server-side API client
 examples/demo.mjs      Offline coverage demo
 fixtures/sessions.json  Clearly labelled synthetic data
 test/client.test.mjs   Request, authentication and error-handling checks
+assets/               Screenshots used on Clutch's API page
 ```
 
 This project is in active development. Clutch is not affiliated with Epic Games.
